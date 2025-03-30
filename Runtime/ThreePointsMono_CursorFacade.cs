@@ -15,10 +15,12 @@ namespace Eloi.ThreePoints
         public bool m_pushToStaticListener = true;
 
 
+        [ContextMenu("Export Meshes")]
         public void PushRequestToExportWhatIsPossible() {
 
             StaticCursorThreePoints.RequestExportWhatIsExportable();
         }
+        [ContextMenu("Invoke From Current Triangle")]
         public void PushRequestToInvokeFromCurrentTriangle() { 
         
             StaticCursorThreePoints.RequestInvokation(m_currentTriangle);
