@@ -45,6 +45,29 @@ namespace Eloi.ThreePoints
         {
             AddPoint(m_trackedPoints.position);
         }
+        public void AddPointFromVector3(Vector3 point)
+        {
+            AddPoint(point);
+        }
+        public void AddPointFromTransform(Transform point)
+        {
+            AddPoint(point.position);
+        }
+        public void AddPointsFromTransform(Transform[] points)
+        {
+            for (int i = 0; i < points.Length; i++)
+            {
+                AddPoint(points[i].position);
+            }
+        }
+        public void AddPointsFromTransformAndSubmit(params Transform[] transforms) {
+
+            for (int i = 0; i < transforms.Length; i++)
+            {
+                AddPoint(transforms[i].position);
+            }
+            SubmitCurrentTriangle();
+        }
 
         public void AddPoint(Vector3 point)
         {

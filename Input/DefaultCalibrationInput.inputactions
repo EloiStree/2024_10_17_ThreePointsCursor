@@ -132,6 +132,125 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "ExtraCalibrationXR",
+            "id": "732f5ac5-2411-42c9-adea-6c38202fc481",
+            "actions": [
+                {
+                    "name": "RightGripPressed",
+                    "type": "Button",
+                    "id": "26e6d5a9-6a16-446f-9b34-7362a8ed8a2f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "DebugArrowRight",
+                    "type": "Button",
+                    "id": "87d11eba-f12a-4824-b33e-8d4f97c49c88",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "DebugArrowLeft",
+                    "type": "Button",
+                    "id": "88821678-24ed-48ca-8314-02500f61a39a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "DebugSpace",
+                    "type": "Button",
+                    "id": "7e4deb04-cec9-461a-9f31-12b1fd5d9e37",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "DebugEnter",
+                    "type": "Button",
+                    "id": "7ccd7efa-ac1f-4a64-b3e3-9479d2e3f4ec",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d1a01b4d-af45-4bd3-9954-14dd881947b3",
+                    "path": "<Keyboard>/p",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightGripPressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bc6c5c83-166c-4421-b926-837a4fb0a1ee",
+                    "path": "<HandInteraction>{RightHand}/graspFirm",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightGripPressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7115fd32-cb73-4451-a12f-4a04af978983",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DebugArrowRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d52cd43b-d2bb-4de5-aade-79a427bcd1d6",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DebugArrowLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c8d666e3-5b2f-4546-93ef-c82e9044946e",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DebugSpace",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3d77240d-6292-451b-9577-7dc2862219e5",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DebugEnter",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": []
